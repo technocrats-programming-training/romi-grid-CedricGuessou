@@ -4,8 +4,8 @@ import static lib.Romi.driveDistance;
 import static lib.Romi.turnDegrees;
 
 public class Position {
-  double xCoordinate;
-  double yCoordinate;
+  double xCoordinate = 0;
+  double yCoordinate = 0;
 
 
     public void driveUp() throws InterruptedException {
