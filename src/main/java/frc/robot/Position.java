@@ -7,26 +7,26 @@ public class Position {
 
 
     public void driveUp() throws InterruptedException {
-      driveDistance();
-      turnDegrees();
+      driveDistance(1);
+      turnDegrees(0);
 
     }
 
 	public void driveDown() throws InterruptedException {
       turnDegrees(180);
-      driveDistance();
+      driveDistance(1);
 
     }
 
     public void driveRight() throws InterruptedException {
       turnDegrees(-90);
-      driveDistance();
+      driveDistance(1);
 
     }
 
     public void driveLeft() throws InterruptedException {
-      turnDegrees(degrees);
-      driveDistance(inches);
+      turnDegrees(90);
+      driveDistance(1);
 
     }
 
